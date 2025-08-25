@@ -40,3 +40,5 @@ app.get('/api/admin', auth, role(['admin']), (req, res) => {
 // app.listen(PORT, () => {
 //   console.log('Server is running on port 3000');
 // });
+
+module.exports = app;
